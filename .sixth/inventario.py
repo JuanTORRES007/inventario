@@ -1,9 +1,9 @@
 #código, nombre,  stock actual,  mínimo que necesitamos
 inventario = [
     [101, "Teclado", 5, 10],
-    [102, "Mouse", 9, 10],
+    [102, "Mouse", 1, 10],
     [103, "Monitor", 3, 8],
-    [104, "Impresora", 7, 15],
+    [104, "Impresora", 7, 7],
     [105, "USB", 2, 12]
 ]
 
@@ -27,4 +27,3 @@ for articulo in inventario:
 
     print(f"Artículo: {nombre}")
     print(f"Cantidad a pedir: {cantidad_pedir}")
-    print("------------------------")
